@@ -1,0 +1,12 @@
+@media(max-width:768px){
+    #header{
+        .content{
+            margin-left: 50px;
+        }
+    }
+    #menu{
+        #collapsibleNavbar{
+            margin-left: 0!important;
+        }
+    }
+}

@@ -1,0 +1,219 @@
+$dark-overlay: rgba(0,0,0,0.7);
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing:borer-box;
+}
+a{
+    text-decoration: none;
+    
+    :hover{
+        text-decoration: none;
+        
+    }
+}
+#header{
+    background-size: cover;
+    background-image: url('');
+    font-size: 30px;
+    a{  
+       
+        text-decoration: none;
+    }
+    .span-title{
+        color:crimson;
+    }
+    .span-red{
+        color: cadetblue
+    }
+    .span-detail{
+        color:cadetblue;
+    }
+}
+#menu{
+    nav .container .collapse .nav-item{
+        margin-left: 10px;
+    }
+}
+#body-nav{
+    .thong-cao{
+        font-size: 20px;
+    }
+    .thong-cao-bao-chi{
+       
+        li{
+            border-left: 6px solid brown;
+            padding:3px;
+        }
+    }
+    .info-chinh-phu{
+        .others-link{
+            height: unset;
+            li{
+                border-bottom: unset;
+              
+            }
+        }
+        .card-header{
+          
+            font-size: 20px!important;
+        }
+    }
+    .video{
+        .card-header{
+            font-size: 20px!important;
+        }
+    }
+    .link-card-tinh-than{
+        color:maroon;
+        :hover{
+            color: white;
+            
+           
+        }
+    }
+    .tinh-than .hd-kieuBao{
+        font-size: 20px!important;
+
+    }
+    .chinh-tri {
+        a{
+            text-decoration: none;
+            
+                :hover{
+                    background: #17a2b8!important;
+                }
+            
+        }
+        .card-header{
+            font-size:1.5rem;
+        }
+        .col-9{
+            padding:0;
+        }
+    }
+    .content-detail{
+        white-space: nowrap; 
+        width: 100%; 
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        color:darkcyan;
+    }
+    .content-detail::first-letter{
+       
+        font-size: xx-large;
+        color:darkcyan;
+        
+    }
+    .thu-tuong{
+        padding: 0;
+    }
+    .row .bg-danger{
+        padding: 0;
+    }
+    .slide{
+        padding: 0;
+    }
+    .nav a{
+        color: white;
+    }
+    .nav-left{
+        li{
+            border: 1px solid darkgrey;
+        }
+        :hover{
+            background: brown;
+        }
+    }
+    .tin-moi {
+        img{
+            vertical-align: unset;
+        }
+        color: white;
+        text-decoration: none;
+        :hover{
+            color: cadetblue;
+        }
+
+    }
+    .container .row .nav {
+        width: 100%;
+        
+    }
+    .nav-item{
+        width: 100%;
+        
+    }
+    .others-link{
+        
+       height: 300px;
+       overflow: auto;
+    }
+    .van-ban-thu-tuong {
+        height: 195px;
+        padding: 5%;
+        overflow: auto;
+        ul{
+            list-style: none;
+        }
+    }
+    .slide-show{
+        position: relative;
+        .over-lay{
+            background: $dark-overlay;
+        }
+        .title-slide{
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            right:0;
+            height: 50px;
+            line-height: 50px;
+            
+        }
+    }
+    ul{
+        list-style: none;
+        padding:0;
+        :hover{
+            color:coral;
+            text-decoration: none;
+        }
+        li{
+            border-bottom: 1px solid #f2f2f2;
+            margin-bottom: 8%;
+        }
+    }
+
+}
+#marquee{
+    background: brown;
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+}
+//scroll
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  @import "mobile";
