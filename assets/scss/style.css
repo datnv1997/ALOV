@@ -3,6 +3,7 @@ html {
   padding: 0;
   -webkit-box-sizing: borer-box;
           box-sizing: borer-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -39,6 +40,71 @@ a :hover {
   margin-left: 10px;
 }
 
+#body-nav .tin-doc-nhieu .content-tin-tuc-doc-nhieu .row {
+  margin-bottom: 10%;
+}
+
+#body-nav .tin-doc-nhieu .btn {
+  border-radius: unset;
+}
+
+#body-nav .tin-doc-nhieu hr {
+  margin-top: 0;
+}
+
+#body-nav .tin-doc-nhieu a {
+  text-decoration: none;
+  color: brown;
+}
+
+#body-nav .xem-tiep {
+  margin-right: 5px;
+}
+
+#body-nav .content-trong-nuoc .link-other-trong-nuoc {
+  width: 182px;
+  overflow: auto;
+}
+
+#body-nav .content-trong-nuoc .mo-ta-chi-tiet {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#body-nav .content-trong-nuoc .img-nav {
+  position: relative;
+}
+
+#body-nav .content-trong-nuoc .img-nav .title {
+  width: 100%;
+  height: 20%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  color: white;
+  bottom: 0;
+  text-align: center;
+}
+
+#body-nav .content-trong-nuoc .title-nho a {
+  text-decoration: none;
+}
+
+#body-nav .title-trong-nuoc {
+  height: 20%;
+  border-bottom: 1px solid gray;
+}
+
+#body-nav .title-trong-nuoc a {
+  color: brown;
+  text-decoration: none;
+}
+
+#body-nav .title-trong-nuoc .tieu-de-trong-nuoc {
+  font-size: 25px;
+}
+
 #body-nav .thong-cao {
   font-size: 20px;
 }
@@ -62,6 +128,16 @@ a :hover {
 
 #body-nav .video .card-header {
   font-size: 20px !important;
+}
+
+#body-nav .video .card-body {
+  background-image: url("../img/doi-ngoai.jpg");
+  background-size: cover;
+}
+
+#body-nav .video .card-body a {
+  font-size: 50px;
+  text-decoration: none;
 }
 
 #body-nav .link-card-tinh-than {
@@ -232,6 +308,9 @@ a :hover {
     margin-left: 50px;
   }
   #menu #collapsibleNavbar {
+    margin-left: 0 !important;
+  }
+  #menu .nav-item {
     margin-left: 0 !important;
   }
 }

@@ -3,6 +3,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing:borer-box;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -36,6 +37,72 @@ a{
     }
 }
 #body-nav{
+    .tin-doc-nhieu{
+       .content-tin-tuc-doc-nhieu{
+           .row{
+               margin-bottom: 10%;
+           }
+       }
+        
+        .btn{
+            border-radius: unset;
+        }
+        hr{
+            margin-top: 0;
+        }
+        a{
+            text-decoration: none;
+            color: brown;
+        }
+    }
+    .xem-tiep{
+        margin-right: 5px;
+
+    }
+    .content-trong-nuoc{
+        .link-other-trong-nuoc{
+            width: 182px;
+            overflow: auto;
+        }
+        .mo-ta-chi-tiet{
+            width: 100%;
+            white-space: nowrap; 
+           
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+        .img-nav{
+            position: relative;
+            .title{
+                width: 100%;
+                height: 20%;
+                background: rgba(0,0,0,0.5);
+                position: absolute;
+                color:white;
+                bottom: 0;
+                text-align: center;
+            }
+        }
+        .title-nho{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+    .title-trong-nuoc{
+        
+        height: 20%;
+        border-bottom: 1px solid gray;
+        a{
+            color:brown;
+            text-decoration: none;
+            
+        }
+        .tieu-de-trong-nuoc{
+            font-size: 25px; 
+            
+        }
+    }
     .thong-cao{
         font-size: 20px;
     }
@@ -63,6 +130,15 @@ a{
         .card-header{
             font-size: 20px!important;
         }
+        .card-body{
+            background-image: url('../img/doi-ngoai.jpg');
+            background-size: cover;
+            a{
+                font-size: 50px;
+                text-decoration: none;
+            }
+        }
+
     }
     .link-card-tinh-than{
         color:maroon;
