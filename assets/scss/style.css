@@ -16,7 +16,6 @@ a :hover {
 
 #header {
   background-size: cover;
-  background-image: url("");
   font-size: 30px;
 }
 
@@ -38,6 +37,10 @@ a :hover {
 
 #menu nav .container .collapse .nav-item {
   margin-left: 10px;
+}
+
+#menu .dropdown-menu a:hover {
+  color: #dc3545 !important;
 }
 
 #body-nav .tin-doc-nhieu .content-tin-tuc-doc-nhieu .row {
@@ -312,6 +315,12 @@ a :hover {
   }
   #menu .nav-item {
     margin-left: 0 !important;
+  }
+  #content .info-2, #content .info-3 {
+    margin-top: 110px;
+  }
+  #content .info-3 {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */

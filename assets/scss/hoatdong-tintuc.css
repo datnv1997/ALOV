@@ -1,0 +1,62 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: borer-box;
+          box-sizing: borer-box;
+  scroll-behavior: smooth;
+}
+
+#header {
+  background-size: cover;
+  background-image: url("");
+  font-size: 30px;
+}
+
+#header a {
+  text-decoration: none;
+}
+
+#header .span-title {
+  color: crimson;
+}
+
+#header .span-red {
+  color: cadetblue;
+}
+
+#header .span-detail {
+  color: cadetblue;
+}
+
+#menu nav .container .collapse .nav-item {
+  margin-left: 10px;
+}
+
+#menu .dropdown-menu a:hover {
+  color: #dc3545 !important;
+}
+
+#content .news a {
+  text-decoration: none;
+  color: #dc3545;
+}
+
+#content .tintuc-phu {
+  margin-top: 10px;
+}
+
+#content .others-info .card a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+#content .others-info .card li {
+  border-left: 5px solid #dc3545;
+  margin-top: 5px;
+}
+/*# sourceMappingURL=hoatdong-tintuc.css.map */
