@@ -1,0 +1,55 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: borer-box;
+          box-sizing: borer-box;
+  scroll-behavior: smooth;
+}
+
+#quantri .section {
+  margin-top: 5px;
+}
+
+#quantri #thongcao {
+  display: none;
+}
+
+#quantri #vanban {
+  display: block;
+}
+
+#quantri .d-active {
+  display: block;
+}
+
+#quantri a {
+  text-decoration: none;
+  color: white;
+}
+
+#quantri ul {
+  list-style: none;
+  padding: 0;
+}
+
+#quantri .menu-toggle {
+  cursor: pointer;
+}
+
+#quantri .dropdown {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+#quantri .menu-dropdown {
+  display: none;
+  background: slategray;
+  padding-left: 8px;
+}
+
+#quantri .menu-dropdown a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=qt.css.map */

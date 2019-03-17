@@ -11,29 +11,34 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/scss/hethongvanban.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/scss/lienhe.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
+
 
 </head>
 
 <body>
     <section id="header">
-        <div class="container">
-            <div class="row p-4">
-                <div class="col-2 ">
-                    <img src="assets/img/quoc-huy.png" alt="quoc-huy" width="100px" height="100px">
+        <div class="over-lay">
+            <div class="background "
+                style="background:url('assets/img/banner.jpg');background-repeat: no-repeat;background-size: cover">
+                <div class="container">
+                    <div class="row p-1">
+                        <div class="col-12 col-md-2 anh text-center">
+                            <img src="assets/img/12509766_672360956239700_7637113305167923230_n.jpg" alt="quoc-huy"
+                                width="100px" height="100px" style="border-radius:50%;">
+                        </div>
+                        <div class="d-none d-sm-block col-md-9 content text-center text-md-left">
+                            <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
+                            <br>
+                            <p class="span-detail">Hội liên lạc với người Việt Nam ở nước ngoài</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-8 content">
-                    <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
-                    <br>
-                    <p class="span-detail">Cổng thông tin điện tử</p>
-                </div>
-
             </div>
         </div>
     </section>
@@ -41,7 +46,7 @@
     <section id="menu" class="sticky-top">
         <nav class="navbar navbar-expand-md bg-danger navbar-dark ">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>Trang chủ</a>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-home"></i>Trang chủ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -52,21 +57,30 @@
                                 Trong nước
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="chinhphu.html">Chính phủ </a>
-                                <a class="dropdown-item text-white" href="#">Tình hình kinh tế - xã hội</a>
+                                <a class="dropdown-item text-white" href="chinhphu.php">Chính phủ </a>
+                                <a class="dropdown-item text-white" href="kinhte-xahoi.php">Tình hình kinh tế - xã
+                                    hội</a>
 
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ngoài nước</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Ngoài nước
+                            </a>
+                            <div class="dropdown-menu bg-danger ">
+                                <a class="dropdown-item text-white" href="ngoainuoc-tintuc.php">Tin tức ngoài nước</a>
+                                <a class="dropdown-item text-white" href="kieubao-chinhphu.php">Kiều bào và chính
+                                    phủ</a>
+
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Hoạt động
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="hoatdong-tintuc.html">Tin tức </a>
-                                <a class="dropdown-item text-white" href="hoatdong-hinhanh.html">Hình ảnh</a>
+                                <a class="dropdown-item text-white" href="hoatdong-tintuc.php">Tin tức </a>
+                                <a class="dropdown-item text-white" href="hoatdong-hinhanh.php">Hình ảnh</a>
 
                             </div>
                         </li>
@@ -75,87 +89,79 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Chính sách kiều bào</a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="hethongvanban.html">Hệ thống văn bản</a>
-
+                                <a class="dropdown-item text-white" href="hethongvanban.php">Hệ thống văn bản</a>
+                                <a class="dropdown-item text-white" href="thongcao-baochi.php">Thống cáo với báo
+                                    chí</a>
                             </div>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                            <a class="nav-link" href="gioithieu.php">Giới thiệu</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lienhe.php">Liên hệ</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn btn-danger float-right mr-2 text-white" data-toggle="modal"
+                                data-target="#myModal">Đăng nhập</a>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
         </nav>
 
     </section>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Tên đăng nhập">
+                    <input type="password" class="form-control mt-3" placeholder="Mật khẩu">
+                    <a href="quantri.php" style="text-decoration:none;"><button type="button"
+                            class="form-control bg-danger text-white mt-3">Đăng
+                            nhập</button></a>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <section id="content">
         <div class="container">
             <div class="row mt-3">
                 <div class="col-md-9">
-                    <div class="table-responsive-md">
-                        <table class="table-bordered w-100 text-center bg-danger text-white bang">
-                            <thead class="bg-info mb-2">
-                                <tr class="theader">
-                                    <th>Văn bản số</th>
-                                    <th>Chủ đề</th>
-                                    <th>Ngày phát hành</th>
-                                    <th></th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr> 
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                <tr>
-                                    <td>N01</td>
-                                    <td>Kiều bào ở úc</td>
-                                    <td>2016/05/02</td>
-                                    <td><a href=""> >>Xem chi tiết</a></td>
-                                </tr>
-                                
-                            </tbody>
-                        </table>
+
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+
+                            <input type="text" class="form-control" placeholder="Mời nhập họ và tên">
+                        </div>
+                        <div class="input-group mb-3">
+
+                            <input type="text" class="form-control" placeholder="Mời nhập email">
+                        </div>
+                        <div class="input-group mb-3">
+                            <textarea name="" id="" class="w-100 form-control" rows="5"
+                                placeholder="Mời nhập ý kiến phản hồi" class="form-control"></textarea>
+                        </div>
+                        <button class="btn btn-primary btn-block">Submit</button>
                     </div>
+
                 </div>
                 <div class="col-md-3 others-info">
                     <div class="card ">
@@ -208,32 +214,10 @@
                     </div>
                 </div>
             </div>
+
         </div>
 
     </section>
 </body>
-<footer class="bg-danger text-white mt-3">
-    <div class="container ">
-        <div class="row pt-2">
-            <div class="col-md-4 text-left ">
-                <h3>Services</h3>
-                <p>EPR</p>
-                <p>English</p>
-                <p>HTML</P>
-            </div>
-            <div class="col-md-4 text-left ">
-                <h3>Company</h3>
-                <p>I&E Company</p>
-            </div>
-            <div class="col-md-4 text-left ">
-                <h3>Contact</h3>
-                <p><i class="fa fa-envelope-open ml-1" aria-hidden="true"></i> Gmail: datnv1997@gmail</p>
-                <p><i class="fas fa-phone ml-1 "></i> SDT:0359501670</p>
-                <p><i class="fas fa-map-marker-alt"></i> Địa chỉ: 91 Nguyễn Chí Thanh, Hà Nội</p>
-            </div>
-        </div>
-    </div>
-
-</footer>
 
 </html>

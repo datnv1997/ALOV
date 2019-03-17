@@ -23,25 +23,29 @@
 
 <body>
     <section id="header">
-        <div class="container">
-            <div class="row p-4">
-                <div class="col-2 ">
-                    <img src="assets/img/quoc-huy.png" alt="quoc-huy" width="100px" height="100px">
+        <div class="over-lay">
+            <div class="background " style="background:url('assets/img/banner.jpg');background-repeat: no-repeat;background-size: cover" >
+                <div class="container">
+                    <div class="row p-1">
+                        <div class="col-12 col-md-2 anh text-center">
+                            <img src="assets/img/12509766_672360956239700_7637113305167923230_n.jpg" alt="quoc-huy"
+                                width="100px" height="100px" style="border-radius:50%;">
+                        </div>
+                        <div class="d-none d-sm-block col-md-9 content text-center text-md-left">
+                            <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
+                            <br>
+                            <p class="span-detail">Hội liên lạc với người Việt Nam ở nước ngoài</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-8 content">
-                    <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
-                    <br>
-                    <p class="span-detail">Cổng thông tin điện tử</p>
-                </div>
-
             </div>
         </div>
     </section>
 
     <section id="menu" class="sticky-top">
-        <nav class="navbar navbar-expand-md bg-danger navbar-dark ">
+        <nav class="navbar navbar-expand-lg bg-danger navbar-dark ">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>Trang chủ</a>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-home"></i>Trang chủ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,85 +53,126 @@
                     <ul class="navbar-nav">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                              Trong nước
+                                Trong nước
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                              <a class="dropdown-item text-white" href="chinhphu.html">Chính phủ </a>
-                              <a class="dropdown-item text-white" href="#">Tình hình kinh tế - xã hội</a>
-                              
+                                <a class="dropdown-item text-white" href="chinhphu.php">Chính phủ </a>
+                                <a class="dropdown-item text-white" href="kinhte-xahoi.php">Tình hình kinh tế - xã
+                                    hội</a>
+
                             </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                              Ngoài nước
+                                Ngoài nước
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                              <a class="dropdown-item text-white" href="ngoainuoc-tintuc.html">Tin tức ngoài nước</a>
-                              <a class="dropdown-item text-white" href="#">Kiều bào và chính phủ</a>
-                              
+                                <a class="dropdown-item text-white" href="ngoainuoc-tintuc.php">Tin tức ngoài nước</a>
+                                <a class="dropdown-item text-white" href="kieubao-chinhphu.php">Kiều bào và chính
+                                    phủ</a>
+
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                  Hoạt động
-                                </a>
-                                <div class="dropdown-menu bg-danger ">
-                                  <a class="dropdown-item text-white" href="hoatdong-tintuc.html">Tin tức </a>
-                                  <a class="dropdown-item text-white" href="hoatdong-hinhanh.html">Hình ảnh</a>
-                                  
-                                </div>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Hoạt động
+                            </a>
+                            <div class="dropdown-menu bg-danger ">
+                                <a class="dropdown-item text-white" href="hoatdong-tintuc.php">Tin tức </a>
+                                <a class="dropdown-item text-white" href="hoatdong-hinhanh.php">Hình ảnh</a>
+
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                                  Chính sách kiều bào</a>
-                                <div class="dropdown-menu bg-danger ">
-                                  <a class="dropdown-item text-white" href="hethongvanban.html">Hệ thống văn bản</a>
-                                  <a class="dropdown-item text-white" href="">Thống cáo với báo chí</a>
-                                </div>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Chính sách kiều bào</a>
+                            <div class="dropdown-menu bg-danger ">
+                                <a class="dropdown-item text-white" href="hethongvanban.php">Hệ thống văn bản</a>
+                                <a class="dropdown-item text-white" href="thongcao-baochi.php">Thông cáo với báo
+                                    chí</a>
+                            </div>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                            <a class="nav-link" href="gioithieu.php">Giới thiệu</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lienhe.php">Liên hệ</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn btn-danger float-right mr-2 text-white" data-toggle="modal"
+                                data-target="#myModal">Đăng nhập</a>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
         </nav>
 
     </section>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    
+                    <form action="admin/trangquantri.php" method="get">
+                        <input type="text" class="form-control" placeholder="Tên đăng nhập" name="username" >
+                        <input type="password" class="form-control mt-3" placeholder="Mật khẩu" name="password" >
+                        <button type="submit" class="form-control bg-danger text-white mt-3">
+                            Đăng nhập
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <section id="marquee">
         <marquee>Tin mới: <a href="#">Hội nghị thượng đỉnh Mỹ-Triều.</a></marquee>
     </section>
-    <section id="body-nav" >
+    <section id="body-nav">
         <div class="container">
             <div class="row">
-                <div class="col-md-2 d-flex bg-danger ">
+                <div class="col-md-2 d-none d-md-block d-flex bg-danger ">
                     <div class="nav flex-column text-center nav-left ">
                         <li class="nav-item">
-                            <a class="nav-link" href="hethongvanban.html">Hệ thống văn bản</a>
+                            <a class="nav-link" href="hethongvanban.php">Hệ thống văn bản</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="chinhphu.html">Chính phủ</a>
+                            <a class="nav-link" href="chinhphu.php">Chính phủ</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Tình hình kinh tế-xã hội</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Những hình ảnh đồng bào nước ngoài</a>
+                            <a class="nav-link" href="kinhte-xahoi.php">Tình hình kinh tế-xã hội</a>
                         </li>
 
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="hoatdong-hinhanh.php">Những hình ảnh đồng bào nước ngoài</a>
+                        </li>
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="row">
                         <div class="col-md-8 slide ">
                             <a href="" class="tin-moi slide-show" id="1">
-                                <img src="assets/img/Trump-Kim-Thuong-Din.jpg" alt="" width="100%" height="300px">
+                                <img src="assets/img/221335_ttxvn_tran_dai_quang_gap_kieu_bao.jpg" alt="" width="100%" height="300px">
                                 <div class="title-slide text-center over-lay">
-                                    Hội nghị thượng đỉnh Mĩ-Triều
+                                    Trần Đại Quang gặp gỡ kiều bào
                                 </div>
                             </a>
                         </div>
@@ -156,7 +201,7 @@
                         Ủy ban Quốc vụ nước Cộng hòa dân chủ nhân dân Triều Tiên Kim Jong-un đã đến thị trấn biên giới
                         Đồng Đăng, huyện Cao Lộc, tỉnh Lạng Sơn trên đoàn tàu hỏa đặc biệt.</div>
                 </div>
-                <div class="col-md-3 thu-tuong">
+                <div class="col-md-3 ">
                     <img src="assets/img/thu-tuong.jpg" alt="" width="100%">
                     <div class="bg-danger text-center text-white">Hệ thống văn bản của ALOV</div>
                     <ul class="van-ban-thu-tuong">
@@ -181,7 +226,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="row chinh-tri">
+            <div class="row chinh-tri mt-3">
                 <div class="col-md-9 p-0 ">
 
                     <div class="card">
@@ -245,7 +290,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-md-3 ">
                     <div class="card video">
                         <div class="card-header text-center bg-danger py-2 text-white">
                             Video hoạt động
@@ -282,7 +327,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
                 <div class="col-md-9 p-0 info-chinh-phu">
                     <div class="card">
                         <div class="card-header bg-danger text-center text-white py-2">
@@ -391,11 +436,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="trong-nuoc mt-2">
+                    <div class="trong-nuoc mt-3">
                         <div class="title-trong-nuoc w-100 clearfix">
                             <a href=""><Span class="tieu-de-trong-nuoc">Trong nước</Span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Người dân</span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Người dân</span></a>
+                            
                             <a href=""><span class="xem-tiep float-right"> >>Xem tiếp</span></a>
 
                         </div>
@@ -416,7 +460,7 @@
                                         Vào rạng sáng ngày 26/02/2019 Donal-Trump đã có mặt tại Việt Nam.
                                     </div>
                                 </div>
-                                <div class="col-md-4 link-other-trong-nuoc">
+                                <div class="col-md-4 col-12 link-other-trong-nuoc mt-2 ">
                                     <ul>
                                         <li><a href="">Lorem, ipsum dolor.</a></li>
                                         <li><a href="">Lorem ipsum dolor sit amet.</a></li>
@@ -427,14 +471,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="trong-nuoc mt-2">
+                    <div class="trong-nuoc mt-3">
                         <div class="title-trong-nuoc w-100 clearfix">
                             <a href=""><Span class="tieu-de-trong-nuoc">Kiều bào ngoài nước</Span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Châu Âu</span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Châu Á</span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Châu Phi</span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Châu Mỹ</span></a>
-                            <a href=""><span class="nguoi-dan ml-3">Khác</span></a>
+                           
                             <a href=""><span class="xem-tiep float-right"> >>Xem tiếp</span></a>
 
                         </div>
@@ -456,7 +496,7 @@
                                         Vào rạng sáng ngày 26/02/2019 Donal-Trump đã có mặt tại Việt Nam.
                                     </div>
                                 </div>
-                                <div class="col-md-4 link-other-trong-nuoc">
+                                <div class="col-md-4 col-12 link-other-trong-nuoc mt-2">
                                     <ul>
                                         <li><a href="">Lorem, ipsum dolor.</a></li>
                                         <li><a href="">Lorem ipsum dolor sit amet.</a></li>
@@ -467,7 +507,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tin-doc-nhieu mt-4 ">
+                    <div class="tin-doc-nhieu mt-3 ">
                         <div class="header-tin-doc-nhieu ">
                             <span class="btn btn-danger">
                                 Tin đọc nhiều nhất.
@@ -567,7 +607,7 @@
 
 
                 </div>
-                <div class="col-md-3 p-0">
+                <div class="col-md-3 ">
                     <div class="card ">
                         <div class="card-header bg-danger text-white text-center py-2 thong-cao ">
                             Thông cáo báo chí
@@ -633,8 +673,9 @@
                 <p>HTML</P>
             </div>
             <div class="col-md-4 text-left ">
-                <h3>Company</h3>
-                <p>I&E Company</p>
+                <h3>ALOV</h3>
+                <p>Cổng thông tin điện tử</p>
+                <p>Hội liên lạc với người Việt Nam ở nước ngoài</p>
             </div>
             <div class="col-md-4 text-left ">
                 <h3>Contact</h3>

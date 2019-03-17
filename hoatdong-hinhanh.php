@@ -23,24 +23,30 @@
 
 <body>
     <section id="header">
-        <div class="container">
-            <div class="row p-4">
-                <div class="col-2 ">
-                    <img src="assets/img/quoc-huy.png" alt="quoc-huy" width="100px" height="100px">
+        <div class="over-lay">
+            <div class="background "
+                style="background:url('assets/img/banner.jpg');background-repeat: no-repeat;background-size: cover">
+                <div class="container">
+                    <div class="row p-1">
+                        <div class="col-12 col-md-2 anh text-center">
+                            <img src="assets/img/12509766_672360956239700_7637113305167923230_n.jpg" alt="quoc-huy"
+                                width="100px" height="100px" style="border-radius:50%;">
+                        </div>
+                        <div class="d-none d-sm-block col-md-9 content text-center text-md-left">
+                            <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
+                            <br>
+                            <p class="span-detail">Hội liên lạc với người Việt Nam ở nước ngoài</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-8 content">
-                    <a href="#"><span class="span-title">ALOV</span><span class="span-red">.VN</span></a>
-                    <br>
-                    <p class="span-detail">Cổng thông tin điện tử</p>
-                </div>
-
             </div>
         </div>
     </section>
+
     <section id="menu" class="sticky-top">
         <nav class="navbar navbar-expand-md bg-danger navbar-dark ">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><i class="fa fa-home"></i>Trang chủ</a>
+                <a class="navbar-brand" href="index.php"><i class="fa fa-home"></i>Trang chủ</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -51,21 +57,30 @@
                                 Trong nước
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="chinhphu.html">Chính phủ </a>
-                                <a class="dropdown-item text-white" href="#">Tình hình kinh tế - xã hội</a>
+                                <a class="dropdown-item text-white" href="chinhphu.php">Chính phủ </a>
+                                <a class="dropdown-item text-white" href="kinhte-xahoi.php">Tình hình kinh tế - xã
+                                    hội</a>
 
                             </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ngoài nước</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Ngoài nước
+                            </a>
+                            <div class="dropdown-menu bg-danger ">
+                                <a class="dropdown-item text-white" href="ngoainuoc-tintuc.php">Tin tức ngoài nước</a>
+                                <a class="dropdown-item text-white" href="kieubao-chinhphu.php">Kiều bào và chính
+                                    phủ</a>
+
+                            </div>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Hoạt động
                             </a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="hoatdong-tintuc.html">Tin tức </a>
-                                <a class="dropdown-item text-white" href="hoatdong-hinhanh.html">Hình ảnh</a>
+                                <a class="dropdown-item text-white" href="hoatdong-tintuc.php">Tin tức </a>
+                                <a class="dropdown-item text-white" href="hoatdong-hinhanh.php">Hình ảnh</a>
 
                             </div>
                         </li>
@@ -74,23 +89,61 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                                 Chính sách kiều bào</a>
                             <div class="dropdown-menu bg-danger ">
-                                <a class="dropdown-item text-white" href="hethongvanban.html">Hệ thống văn bản</a>
-
+                                <a class="dropdown-item text-white" href="hethongvanban.php">Hệ thống văn bản</a>
+                                <a class="dropdown-item text-white" href="thongcao-baochi.php">Thống cáo với báo
+                                    chí</a>
                             </div>
                         </li>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="gioithieu.html">Giới thiệu</a>
+                            <a class="nav-link" href="gioithieu.php">Giới thiệu</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="lienhe.php">Liên hệ</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="btn btn-danger float-right mr-2 text-white" data-toggle="modal"
+                                data-target="#myModal">Đăng nhập</a>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
         </nav>
 
     </section>
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header text-center">
+                    <h4 class="modal-title">Đăng nhập</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <input type="text" class="form-control" placeholder="Tên đăng nhập">
+                    <input type="password" class="form-control mt-3" placeholder="Mật khẩu">
+                    <a href="quantri.php" style="text-decoration:none;"><button type="button"
+                            class="form-control bg-danger text-white mt-3">Đăng
+                            nhập</button></a>
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
     <section id="content">
         <div class="container">
-            <div class="row mt-2">
+            <div class="row mt-3">
                 <div class="col-md-9 ">
                     <div class="tieu-de btn btn-danger">
                         Hình ảnh tiêu biểu
@@ -128,8 +181,8 @@
                         </div>
 
                         <!-- Next and previous buttons -->
-                        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                        <a class="prev" style="margin-top:-220px" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" style="margin-top:-220px" onclick="plusSlides(1)">&#10095;</a>
 
                         <!-- Image text -->
                         <div class="caption-container">
@@ -274,36 +327,40 @@
         </div>
     </section>
     <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
+    var slideIndex = 1;
+    showSlides(slideIndex);
 
-        // Next/previous controls
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
 
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
 
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            var captionText = document.getElementById("caption");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-            captionText.innerHTML = dots[slideIndex - 1].alt;
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        var captionText = document.getElementById("caption");
+        if (n > slides.length) {
+            slideIndex = 1
         }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        captionText.innerHTML = dots[slideIndex - 1].alt;
+    }
     </script>
 </body>
 <footer class="bg-danger text-white mt-3">
@@ -316,8 +373,9 @@
                 <p>HTML</P>
             </div>
             <div class="col-md-4 text-left ">
-                <h3>Company</h3>
-                <p>I&E Company</p>
+            <h3>ALOV</h3>
+                <p>Cổng thông tin điện tử</p>
+                <p>Hội liên lạc với người Việt Nam ở nước ngoài</p>
             </div>
             <div class="col-md-4 text-left ">
                 <h3>Contact</h3>
